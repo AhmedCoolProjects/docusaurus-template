@@ -73,6 +73,10 @@ const config: Config = {
           position: "left",
           label: "Tutorial",
         },
+        {
+          type: "search",
+          position: "right",
+        },
         { to: "/blog", label: "Blog", position: "left" },
         {
           href: "https://github.com/facebook/docusaurus",
@@ -129,6 +133,11 @@ const config: Config = {
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
+    },
+    algolia: {
+      appId: "0CMHNGVUX0",
+      apiKey: "fb8a8bf7f10a789e5c28ae7be4f70512",
+      indexName: "test_index",
     },
   } satisfies Preset.ThemeConfig,
 };
