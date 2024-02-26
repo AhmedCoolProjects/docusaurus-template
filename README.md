@@ -1,3 +1,12 @@
+## main branch
+
+- tailwindcss configured
+- Algolia Docsearch configured
+
+## tailwind-css branch
+
+- tailwindcss configured
+
 ## Docker command
 
 ```
